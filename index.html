@@ -4,6 +4,74 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Bootstrap web</title>
+  <style>
+    * {font-family: "Poppins"}
+/* ===============================
+   MOBILE FIXES (0px - 480px)
+================================ */
+@media (max-width: 480px) {
+
+  /* HERO SECTION TEXT */
+  .card-img-overlay h1 {
+    font-size: 32px !important;
+    text-align: center;
+  }
+
+  .card-img-overlay p {
+    font-size: 18px !important;
+    text-align: center;
+  }
+
+  /* NEW ARRIVALS & COLLECTION FLEX FIX */
+  .d-flex.flex-row {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  /* PRODUCT CARDS */
+  .card[style*="width: 18rem"] {
+    width: 90% !important;
+    margin-bottom: 15px;
+  }
+
+  /* COLLECTION LARGE CARDS */
+  .card[style*="width: 35rem"] {
+    width: 90% !important;
+    margin-bottom: 15px;
+  }
+
+  /* ABOUT SECTION TITLE */
+  .card-img-overlay h1[style*="80px"] {
+    font-size: 28px !important;
+    text-align: center;
+  }
+
+  /* ABOUT TEXT */
+  .bg-danger-subtle p,
+  .bg-danger-subtle li {
+    font-size: 16px !important;
+    line-height: 1.6;
+  }
+
+  /* CONTACT FORM */
+  form[style*="width: 700px"] {
+    width: 95% !important;
+    height: auto !important;
+    padding: 15px;
+  }
+
+  /* FOOTER COLUMNS */
+  footer .row {
+    flex-direction: column;
+  }
+
+  footer .col {
+    margin-bottom: 15px;
+  }
+
+}
+</style>
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
@@ -113,33 +181,33 @@
     <div class="d-flex flex-row justify-content-center p-3 gap-3">
       <div class="card"
         style="width: 18rem; background: #500909; color: white;border-radius: 20px; border: solid #e64d4d;">
-        <img src="./images/1.jpg" class="card-img-top" alt="..." style="border-radius: 20px;">
+        <img src="./images/bag.jpg" class="card-img-top" alt="..." style="border-radius: 20px;">
         <div class="card-body">
-          <h5 class="card-title">Moon Star Necklace</h5>
+          <h5 class="card-title">White Hand Bag</h5>
           <a href="#" class="btn btn-outline-danger">Add To cart</a>
         </div>
       </div>
       <div class="card"
         style="width: 18rem; background: #500909; color: white;border-radius: 20px; border: solid #e64d4d;">
-        <img src="./images/2.jpg" class="card-img-top" alt="..." style="border-radius: 20px;">
+        <img src="./images/bow earring.jpg" class="card-img-top" alt="..." style="border-radius: 20px;">
         <div class="card-body">
-          <h5 class="card-title">Blue Flowers Earrings</h5>
+          <h5 class="card-title">Black Bow Earrings</h5>
           <a href="#" class="btn btn-outline-danger">Add To cart</a>
         </div>
       </div>
       <div class="card"
         style="width: 18rem; background: #500909; color: white;border-radius: 20px; border: solid #e64d4d;">
-        <img src="./images/3.jpg" class="card-img-top" alt="..." style="border-radius: 20px;">
+        <img src="./images/round earring.jpg" class="card-img-top" alt="..." style="border-radius: 20px;">
         <div class="card-body">
-          <h5 class="card-title">Pink Donut Earrings</h5>
+          <h5 class="card-title">White Marble Earrings</h5>
           <a href="#" class="btn btn-outline-danger">Add To cart</a>
         </div>
       </div>
       <div class="card"
         style="width: 18rem; background: #500909; color: white;border-radius: 20px; border: solid #e64d4d;">
-        <img src="./images/4.jpg" class="card-img-top" alt="..." style="border-radius: 20px;">
+        <img src="./images/watch.jpg" class="card-img-top" alt="..." style="border-radius: 20px;">
         <div class="card-body">
-          <h5 class="card-title">Minimals Rings</h5>
+          <h5 class="card-title">Pink Classic Watch</h5>
           <a href="#" class="btn btn-outline-danger">Add To cart</a>
         </div>
       </div>
